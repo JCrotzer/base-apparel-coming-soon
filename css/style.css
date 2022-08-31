@@ -134,26 +134,23 @@ small {
 
 @media screen and (min-width: 625px) {
     
-    body {
-       
-    }
-
     main {
         display: flex;
         min-height: 100vh;
         max-width: 100%; 
         width: 100%;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         text-align: left;
     }
 
     .container {
         background-color: white;
-        display: flex;
+        display: flex; 
         background: url(../images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+        margin: 0 auto;
     }
 
     .logo {
@@ -177,7 +174,7 @@ small {
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
-        margin: -20px 120px 0 0;
+        margin: -20px 120px 0 100px;
     }
 
     .article h1 {
