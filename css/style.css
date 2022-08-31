@@ -135,10 +135,7 @@ small {
 @media screen and (min-width: 625px) {
     
     body {
-        background: url(../images/bg-pattern-desktop.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+       
     }
 
     main {
@@ -153,6 +150,10 @@ small {
     .container {
         background-color: white;
         display: flex;
+        background: url(../images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
 
     .logo {
